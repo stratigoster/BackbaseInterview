@@ -16,6 +16,7 @@
 		3DBF782921A3638C009D1B70 /* BackbaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF782821A3638C009D1B70 /* BackbaseUITests.swift */; };
 		3DBF783721A375D5009D1B70 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF783621A375D4009D1B70 /* Location.swift */; };
 		3DBF783921A37702009D1B70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF783821A37702009D1B70 /* DetailViewController.swift */; };
+		3DD8634D21A5EBB9006074B7 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8634C21A5EBB8006074B7 /* cities.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3DBF782A21A3638C009D1B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DBF783621A375D4009D1B70 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3DBF783821A37702009D1B70 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3DD8634C21A5EBB8006074B7 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cities.json; path = ../../../Downloads/cities.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		3DBF77FC21A36383009D1B70 = {
 			isa = PBXGroup;
 			children = (
+				3DD8634C21A5EBB8006074B7 /* cities.json */,
 				3DBF780721A36384009D1B70 /* Backbase */,
 				3DBF781C21A3638B009D1B70 /* BackbaseTests */,
 				3DBF782721A3638C009D1B70 /* BackbaseUITests */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD8634D21A5EBB9006074B7 /* cities.json in Resources */,
 				3DBF781321A3638B009D1B70 /* LaunchScreen.storyboard in Resources */,
 				3DBF781021A3638B009D1B70 /* Assets.xcassets in Resources */,
 				3DBF780E21A36384009D1B70 /* Main.storyboard in Resources */,
